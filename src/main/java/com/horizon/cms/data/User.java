@@ -1,16 +1,17 @@
 package com.horizon.cms.data;
 
 import jakarta.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
 
 @Entity
 @Table(name = "users")
-public class Users {
-    @Id
+public class User {
+    public User() {
+        super();
+    }
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Id
     @Column(nullable = false, unique = true)
     private String username;
 
@@ -18,9 +19,7 @@ public class Users {
     private String passwordHash;
 
     @Column(nullable = false)
-    private String role; // Consider using an enum (e.g., ADMIN, EDITOR, VIEWER)
-
-    // Standard getters and setters
+    private String role;
 
     public Long getId() {
         return id;
