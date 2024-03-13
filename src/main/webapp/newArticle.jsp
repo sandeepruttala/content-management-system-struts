@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Create New Article</title>
+    <link rel="stylesheet" type="text/css" href="global.css">
 </head>
 <body>
 
@@ -26,8 +27,8 @@
         <label for="category">Category:</label>
         <select id="category" name="category">
             <!-- Populate categories dynamically from the database -->
-            <option value="2">News</option>
-            <option value="1">Technology</option>
+            <option value="1">News</option>
+            <option value="2">Technology</option>
             <option value="3">Entertainment</option>
             <!-- Add more categories as needed -->
         </select>

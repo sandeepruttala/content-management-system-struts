@@ -8,11 +8,12 @@
 <html>
 <head>
     <title>News Website</title>
+    <link rel="stylesheet" type="text/css" href="global.css">
     <!-- Add your CSS links here -->
 </head>
 <body>
 
-<div style="text-align:right;">
+<div>
     <% if (session.getAttribute("username") != null) { %>
     <a href="newArticle.jsp">New Article</a>
     <% } %>
@@ -21,6 +22,8 @@
     <a href="LogoutServlet">Logout</a>
     <% } %>
 </div>
+
+<br>
 
 <h1>Latest News</h1>
 

@@ -3,6 +3,7 @@
 <head>
     <title>Login</title>
     <!-- Add your CSS links here -->
+    <link rel="stylesheet" type="text/css" href="global.css">
 </head>
 <body>
 

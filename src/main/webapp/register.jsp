@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="global.css">
     <!-- Add your CSS links here -->
 </head>
 <body>
