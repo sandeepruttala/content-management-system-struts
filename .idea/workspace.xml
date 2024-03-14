@@ -10,33 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="007508cd-7822-46fa-b68a-bf027d966527" name="Changes" comment="Added editing feature for author and admin">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Authentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Authentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Comment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Persist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Persist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/conn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/data/conn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/EditArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/EditArticleServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/LogoutServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/SaveArticleServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/SaveArticleServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/articleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/horizon/cms/servlets/articleList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/articleDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/articleDetails.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/editArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/editArticle.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/newArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/newArticle.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/xd.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/11452c99-0f5f-4e92-9344-fa0f91d083a9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/11452c99-0f5f-4e92-9344-fa0f91d083a9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,9 +54,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Tomcat Server.Tomcat 9.0.85.executor": "Run",
+    "Tomcat Server.Tomcat 9.0.85.executor": "Debug",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/sandeepruttala/AJP/cms",
@@ -202,7 +180,11 @@
       <workItem from="1710219055306" duration="3335000" />
       <workItem from="1710222439492" duration="2647000" />
       <workItem from="1710343321429" duration="7323000" />
-      <workItem from="1710353474596" duration="1816000" />
+      <workItem from="1710353474596" duration="2444000" />
+      <workItem from="1710357170996" duration="358000" />
+      <workItem from="1710384604692" duration="1386000" />
+      <workItem from="1710390241471" duration="399000" />
+      <workItem from="1710390655998" duration="226000" />
     </task>
     <task id="LOCAL-00001" summary="added features">
       <option name="closed" value="true" />

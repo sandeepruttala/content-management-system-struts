@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Added a universal font for better readability */
 }
 
 body{
@@ -10,7 +11,8 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #2d2d2d; /* Dark background */
+    color: #f4f4f4; /* Light text for contrast */
 }
 
 h1{
@@ -21,6 +23,7 @@ h1{
 label{
     font-size: 18px;
     margin-bottom: 10px;
+    color: #cccccc; /* Softer contrast for labels */
 }
 
 input, select, textarea{
@@ -28,17 +31,20 @@ input, select, textarea{
     width: 300px;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 1px solid #444; /* Softer border color */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #333; /* Darker fields */
+    color: #fff; /* Light text for inputs */
 }
 
 button{
-    padding: 10px;
+    padding: 10px 20px; /* More padding for a better touch area */
     border: none;
-    border-radius: 5px;
+    border-radius: 8px; /* Rounded corners */
     background-color: #007bff;
     color: #fff;
     cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 button:hover{
@@ -47,65 +53,37 @@ button:hover{
 
 a{
     text-decoration: none;
-    color: #007bff;
+    color: #00aaff; /* Brighter color for links for better visibility */
     margin: 20px;
     padding: 10px;
-    border: 1px solid #007bff;
+    border: 2px solid #00aaff; /* Thicker border for emphasis */
+    border-radius: 8px; /* Rounded corners for links */
 }
 
-.article-preview{
+.article-preview, .article-details{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
+    border: 1px solid #444; /* Softer border color */
+    border-radius: 8px; /* Rounded corners for the containers */
+    background-color: #3a3a3a; /* Slightly lighter dark background for contrast */
 }
 
-.article-preview h2{
+.article-preview h2, .article-details h2{
     font-size: 24px;
     margin-bottom: 20px;
 }
 
-.article-preview p{
+.article-preview p, .article-details p{
     font-size: 18px;
     margin-bottom: 20px;
 }
 
-.article-preview a{
-    text-decoration: none;
-    color: #007bff;
+.article-preview a, .article-details a{
+    color: #00aaff; /* Brighter link color for better visibility */
     padding: 10px;
-    border: none !important;
+    border-radius: 8px; /* Rounded corners for link elements */
+    border: none !important; /* Maintaining the importance of no border */
 }
-
-.article-details{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-}
-
-.article-details h2{
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
-.article-details p{
-    font-size: 18px;
-    margin-bottom: 20px;
-}
-
-.article-details a{
-    text-decoration: none;
-    color: #007bff;
-    padding: 10px;
-    border: none !important;
-}
-
